@@ -1,6 +1,5 @@
 $(document).ready(function () {
   vocabListSelect = $('#vocab_list')
-  vocabListSelect.append('<option selected>Choose a vocab list</option>')
   let vocabData
 
   fetch('vocab.json', { cache: "reload" })

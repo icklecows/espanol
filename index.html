@@ -9,24 +9,27 @@
   <div class="container">
     <h1>Spanish vocab practice</h1>
     <p>Practice your spanish vocab online</p>
-    <div id="options" class="row mb-5">
-      <div class="col-6">
-        <select class="custom-select" id="difficulty">
-          <option selected>Choose a level</option>
-          <option value="easy">Spanish to English (easy)</option>
-          <option value="medium">English to Spanish (medium)</option>
-<!--          <option value="hard">Mixed (hard)</option> -->
-        </select>
+    <main>
+      <div id="options" class="row mb-5">
+        <div class="col-6">
+          <label for="difficulty">Choose a level</label>
+          <select class="custom-select" id="difficulty">
+            <option value="easy">Spanish to English (easy)</option>
+            <option value="medium">English to Spanish (medium)</option>
+  <!--          <option value="hard">Mixed (hard)</option> -->
+          </select>
+        </div>
+        <div class="col-6">
+          <label for="vocab_list">Choose a vocab list</label>
+          <select class="custom-select" id="vocab_list"></select>
+        </div>
+        <div class="col-12 mt-4">
+          <button id="load_quiz">Get quiz</button>
+        </div>
       </div>
-      <div class="col-6">
-        <select class="custom-select" id="vocab_list"></select>
+      <div id="quiz">
       </div>
-      <div class="col-12 mt-4">
-        <button id="load_quiz">Get quiz</button>
-      </div>
-    </div>
-    <div id="quiz">
-    </div>
+    </main>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
