@@ -272,7 +272,7 @@
                 "english": ["I study"]},
                 {"id": 1,
                 "spanish": ["una asignatura"],
-                "english": ["a school subject"]},
+                "english": ["a school subject", "school subject", "subject"]},
                 {"id": 2,
                 "spanish": ["las ciencias"],
                 "english": ["Science"]},
@@ -302,7 +302,7 @@
                 "english": ["Music"]},
                 {"id": 11,
                 "spanish": ["la informática"],
-                "english": ["IT", "ICT"]},
+                "english": ["IT", "ICT", "Computing"]},
                 {"id": 12,
                 "spanish": ["la educación física"],
                 "english": ["PE"]},
@@ -314,7 +314,7 @@
                 "english": ["hour"]},
                 {"id": 15,
                 "spanish": ["una clase"],
-                "english": ["class"]}
+                "english": ["class", "a class"]}
            ]
   }
 ]
