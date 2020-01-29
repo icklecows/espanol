@@ -353,7 +353,7 @@
                 "english": ["there is"]},
                 {"id": 10,
                 "spanish": ["no hay"],
-                "english": ["there isn’t"]},
+                "english": ["there isn’t", "there isn't"]},
                 {"id": 11,
                 "spanish": ["el profesor"],
                 "english": ["teacher (male)", "male teacher", "teacher"]},
