@@ -7,11 +7,11 @@
 </head>
 <body>
   <div class="container">
-    <h1>Spanish vocab practice</h1>
-    <p>Practice your spanish vocab online</p>
+    <h1 class="mt-5">Spanish vocab practice</h1>
+    <p class="lead">Practice your spanish vocab online</p>
     <main>
       <div id="options" class="row mb-5">
-        <div class="col-6">
+        <div class="col-md-6 mt-4">
           <label for="difficulty">Choose a level</label>
           <select class="custom-select" id="difficulty">
             <option value="easy">Spanish to English (easy)</option>
@@ -19,7 +19,7 @@
   <!--          <option value="hard">Mixed (hard)</option> -->
           </select>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 mt-4">
           <label for="vocab_list">Choose a vocab list</label>
           <select class="custom-select" id="vocab_list"></select>
         </div>
@@ -27,7 +27,33 @@
           <button id="load_quiz">Get quiz</button>
         </div>
       </div>
-      <div id="quiz">
+      <div class="d-none d-lg-inline">
+        <p><strong>Tips:</strong> To enter an accented letter (áéíóú) hold down 'AltGr' and press the letter.  For other letters, hold down 'Alt' and type the number pad code:</p>
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li>for ü, type 0252</li>
+              <li>for ñ, type 0241</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>for ¡, type 0161</li>
+              <li>for ¿, type 0191</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>for «, type 0171</li>
+              <li>for », type 0187</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="d-lg-none">
+        <p><strong>Tips:</strong> To enter an accented letter, press and hold the normal letter and select the accented version from the options</p>
+      </div>
+      <div class="mt-4" id="quiz">
       </div>
     </main>
   </div>
