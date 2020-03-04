@@ -628,7 +628,7 @@
                 "english": ["a house"]},
                 {"id": 1,
                 "spanish": ["un piso"],
-                "english": ["a flat"]},
+                "english": ["a flat", "an apartment"]},
                 {"id": 2,
                 "spanish": ["una granja"],
                 "english": ["a farm"]},
@@ -669,7 +669,7 @@
                 "spanish": ["moderno"],
                 "english": ["modern"]},
                 {"id": 15,
-                "spanish": ["viejo"],
+                "spanish": ["viejo", "antiguo", "antigua"],
                 "english": ["old"]}
            ]
   }
