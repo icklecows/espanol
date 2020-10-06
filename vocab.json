@@ -861,5 +861,50 @@
                 "spanish": ["descubrir"],
                 "english": ["to discover", "discover"]}
            ]
+<<<<<<< HEAD
+=======
+  },
+  {
+    "id": 13,
+    "name": "Year 8 List 2 - Ir present and past",
+    "words": [
+                {"id": 0,
+                "spanish": ["voy"],
+                "english": ["I go"]},
+                {"id": 1,
+                "spanish": ["vas"],
+                "english": ["you go (singular)", "you go"]},
+                {"id": 2,
+                "spanish": ["va"],
+                "english": ["s/he goes", "he goes", "she goes"]},
+                {"id": 3,
+                "spanish": ["vamos"],
+                "english": ["we go"]},
+                {"id": 4,
+                "spanish": ["vais"],
+                "english": ["you go (plural)", "you go"]},
+                {"id": 5,
+                "spanish": ["van"],
+                "english": ["they go"]},
+                {"id": 6,
+                "spanish": ["fui"],
+                "english": ["I went"]},
+                {"id": 7,
+                "spanish": ["fuiste"],
+                "english": ["you went (singular)"]},
+                {"id": 8,
+                "spanish": ["fue"],
+                "english": ["s/he went", "he went", "she went"]},
+                {"id": 9,
+                "spanish": ["fuimos"],
+                "english": ["we went"]},
+                {"id": 10,
+                "spanish": ["fuisteis"],
+                "english": ["you went (plural)", "you went"]},
+                {"id": 11,
+                "spanish": ["fueron"],
+                "english": ["they went"]}
+           ]
+>>>>>>> Updated with new vocab list
   }
 ]
